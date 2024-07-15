@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+}.container{
+    display:flex ;
+    background-color: #fff;
+}
+.left-section{
+
+background-color: #fff;
+width: 1200px;
+height: 870px;
+}
+
+.text{
+    margin-left: 470px;
+    margin-top: 1px;
+margin-bottom: 30px;
+font-size: 27px;
+word-spacing: 3px;
+font-weight: 600;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.left-section img{
+    width: 400px;
+    margin-left: 430px;
+    margin-top: 290px;
+
+}
+.right-section{
+    background-color: rgb(255, 255, 255);
+    width: 350px;;
+    height: 200px;
+    margin-top: 280px;
+    margin-right: 550px;
+}
+form{
+  
+    width: 380px;
+    height: 300px;
+    padding: 10px 5px 20px 5px;
+    margin-right: -10vh 850px;
+border-radius: 10px;
+-webkit-box-shadow: 0px 2px 18px 5px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 0px 2px 18px 5px rgba(34, 60, 80, 0.2);
+box-shadow: 0px 2px 18px 5px rgba(34, 60, 80, 0.2);
+}
+input [type='text'], input[type=password]
+{
+    display: block;
+    background-color: #fff;
+    margin: auto;
+    border: 1.5px solid rgb(201, 201, 201);
+    width: 260px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin-top: 10px
+}
+
+
+button{
+    border: none;
+  background-color: #1877f2;
+  color: white;
+  margin: auto;
+  width: 300px;
+  display: block;
+  padding: 10px 0px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 5px;
+  
+}
+
+.line{
+    width: 300px;
+    font-size: 14px;
+    background-color: #42b72a;
+    text-align: center;
+    margin-top: 20px;
+}
+.f-pws{
+    display: block;
+    width: 200px;
+    margin: auto;
+    color: #1877f2;
+    padding-left: 80px;
+    font-family: "Segoe UI";
+    font-weight: 400;
+    margin-right: 70px;
+}
